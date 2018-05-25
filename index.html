@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Печатный салон «Мария»</title>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/libs/animate.css"> 
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.wow:first-child {
+			visibility: hidden;
+		}
+	</style>
+</head>
+<body id="main">
+	<header>
+		<div class="top-header wow fadeInDown top__element">
+			<div class="container">
+				<div class="row">
+					<div class="flex-block">
+						<div class="logo">
+							<a href="/">
+								<img src="img/logo.png" alt="">
+							</a>
+						</div>
+						<div class="contacts-block">
+							<div class="main-contacts">
+								<a href="mailto:sale@marya-print.ru" class="mail">sale@marya-print.ru</a>
+								<div class="phone-contacts">
+									<a href="https://api.whatsapp.com/send?phone=79800000000"><img src="img/viber.png" alt=""></a>
+									<a href="viber://add?number=79800000000"><img src="img/whatsapp.png" alt=""></a>
+									<a href="tel:+7(980) 000-00-00" class="phone">+7(980) 000-00-00</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-info-header">
+			<div class="container">
+				<div class="row">
+					<div class="navigation-block  wow fadeInDown top__element">
+						<div class="mobile-menu">
+							<nav>
+								<span class="mobile-btn">
+									<i class="fa fa-bars"></i>
+								</span>
+								<ul>
+									<li>
+										<a href="#main">Главная</a>
+									</li>
+									<li>
+										<a href="#service">Услуги</a>
+									</li>
+									<li>
+										<a href="#price">Цены</a>
+									</li>
+									<li>
+										<a href="#calculate-the-cost">Рассчитать заказ</a>
+									</li>
+									<li>
+										<a href="#contacts">Контакты</a>
+									</li>
+									<li>
+										<a href="#about">О нас</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="title wow fadeInDown top__element">
+						<h1>Печать шелкографией по самым низким ценам</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		
+		<section class="services" id="services">
+			<div class="container">
+				<div class="row">
+					<h2 class=" wow fadeInDown top__element">Наши услуги</h2>
+					<div class="col">
+						<div class="item wow fadeInDown top__element">
+							<div class="img-block" style="background-image: url(img/service1.png);">
+								<img src="img/empty-service.png" alt="">
+							</div>
+							<div class="title"><span>Печать на крое</span></div>
+						</div>
+						<div class="item wow fadeInDown top__element">
+							<div class="img-block" style="background-image: url(img/service2.png);">
+								<img src="img/empty-service.png" alt="">
+							</div>
+							<div class="title"><span>Печать на <br> готовых изделиях</span></div>
+						</div>
+						<div class="item wow fadeInDown top__element">
+							<div class="img-block" style="background-image: url(img/service3.png);">
+								<img src="img/empty-service.png" alt="">
+							</div>
+							<div class="title"><span>Печать на спецодежде</span></div>
+						</div>
+						<div class="item wow fadeInDown top__element">
+							<div class="img-block" style="background-image: url(img/service4.png);">
+								<img src="img/empty-service.png" alt="">
+							</div>
+							<div class="title"><span>Печать на сумках</span></div>
+						</div>
+						<div class="item wow fadeInDown top__element">
+							<div class="img-block" style="background-image: url(img/service5.png);">
+								<img src="img/empty-service.png" alt="">
+							</div>
+							<div class="title"><span>Печать на детском</span></div>
+						</div>
+						<div class="item wow fadeInDown top__element">
+							<div class="img-block" style="background-image: url(img/service6.png);">
+								<img src="img/empty-service.png" alt="">
+							</div>
+							<div class="title"><span>Печать на фартуках</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="calculate-the-cost wow fadeInDown top__element">
+			<div class="container">
+				<div class="row">
+					<h2 class=" wow fadeInDown top__element">Наши дизайнеры создадут рисунок для нанесения для Вас</h2>
+					<form enctype="multipart/form-data" method="post" class=" wow fadeInDown top__element">
+						<label for="">
+							<input type="text" placeholder="Ваше имя:" name="nameFF" value="" required>
+						</label>
+						<label for="">
+							<input type="text" placeholder="Номер телефона:" name="phoneFF" value="">
+						</label>
+						<label for="">
+							<input type="mail" placeholder="Ваш Email:" value="" name="contactFF">
+						</label>
+						<label for="" class="file-load">
+							<input type="file" name="fileFF[]" multiple>
+							<span>Загрузить фото</span>
+						</label>
+						<input type="submit" value="Рассчитать стоимость">
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="price" id="price">
+			<div class="container">
+				<div class="row">
+					<h2 class=" wow fadeInDown top__element">Наши цены</h2>
+					<table>
+						<thead class=" wow fadeInDown top__element">
+							<tr>
+								<th>Формат/Тираж</th>
+								<th>1 цвета</th>
+								<th>2 цвета</th>
+								<th>3 цвета</th>
+								<th>4 цвета</th>
+								<th>5 цветов</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class=" wow fadeInDown top__element" class="title">
+								<td colspan="6" class="title">А6(10х15)</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>200</td>
+								<td>10,5</td>
+								<td>15</td>
+								<td>19</td>
+								<td>22,5</td>
+								<td>26</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>500</td>
+								<td>8,5</td>
+								<td>11,5</td>
+								<td>14</td>
+								<td>17</td>
+								<td>20</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>1000</td>
+								<td>7</td>
+								<td>9,5</td>
+								<td>12</td>
+								<td>14,5</td>
+								<td>17</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>2000</td>
+								<td>5,5</td>
+								<td>8</td>
+								<td>10</td>
+								<td>12</td>
+								<td>14</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td colspan="6" class="title">А5(15х21)</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>200</td>
+								<td>12</td>
+								<td>17</td>
+								<td>21</td>
+								<td>24.5</td>
+								<td>28</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>500</td>
+								<td>9,5</td>
+								<td>12</td>
+								<td>15</td>
+								<td>18</td>
+								<td>21</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>1000</td>
+								<td>8</td>
+								<td>10,5</td>
+								<td>13,5</td>
+								<td>16</td>
+								<td>18,5</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>2000</td>
+								<td>6</td>
+								<td>10</td>
+								<td>13</td>
+								<td>13,5</td>
+								<td>17</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td colspan="6" class="title">А4(21х30)</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>200</td>
+								<td>15,5</td>
+								<td>22</td>
+								<td>25</td>
+								<td>30</td>
+								<td>14</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>500</td>
+								<td>12</td>
+								<td>17,5</td>
+								<td>19</td>
+								<td>22,5</td>
+								<td>26</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>1000</td>
+								<td>9,5</td>
+								<td>13</td>
+								<td>16,5</td>
+								<td>20</td>
+								<td>23</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>2000</td>
+								<td>7</td>
+								<td>11</td>
+								<td>15</td>
+								<td>18</td>
+								<td>21</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td colspan="6" class="title">А3(50х30)</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>200</td>
+								<td>19</td>
+								<td>26</td>
+								<td>32</td>
+								<td>38</td>
+								<td>42</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>500</td>
+								<td>15,5</td>
+								<td>20</td>
+								<td>24,5</td>
+								<td>28</td>
+								<td>31,5</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>1000</td>
+								<td>12</td>
+								<td>17</td>
+								<td>20,5</td>
+								<td>25</td>
+								<td>29</td>
+							</tr>
+							<tr class=" wow fadeInDown top__element">
+								<td>2000</td>
+								<td>10</td>
+								<td>14</td>
+								<td>18</td>
+								<td>21,5</td>
+								<td>25,5</td>
+							</tr>
+						</tbody>
+					</table>
+					<p class=" wow fadeInDown top__element">Менеджер сформирует окончательную цену для вас</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="calculate-the-cost" id="calculate-the-cost">
+			<div class="container">
+				<div class="row">
+					<h2 class=" wow fadeInDown top__element">Узнайте стоимость Вашего заказа сегодня!</h2>
+					<form enctype="multipart/form-data" method="post" class=" wow fadeInDown top__element">
+						<label for="">
+							<input type="text" placeholder="Ваше имя:" name="nameFF" value="" required>
+						</label>
+						<label for="">
+							<input type="text" placeholder="Номер телефона:" name="phoneFF" value="">
+						</label>
+						<label for="">
+							<input type="mail" placeholder="Ваш Email:" value="" name="contactFF">
+						</label>
+						<label for="" class="file-load">
+							<input type="file" name="fileFF[]" multiple>
+							<span>Загрузить фото</span>
+						</label>
+						<input type="submit" value="Рассчитать стоимость">
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<div class="row">
+					<h2 class=" wow fadeInDown top__element">Наши контакты</h2>
+					<div class="flex-block">
+						<div class="info wow fadeInDown top__element">
+							<div class="address">г. Иваново ул Полка Нормандии Неман д.5</div>
+							<div class="phone">
+								<a href="tel:+79800000000">+79800000000</a>
+								<a href="https://api.whatsapp.com/send?phone=79800000000"><img src="img/viber.png" alt=""></a>
+								<a href="viber://add?number=79800000000"><img src="img/whatsapp.png" alt=""></a>
+							</div>
+							<div class="mail"><a href="mailto:sale@mariya-print.ru">sale@mariya-print.ru</a></div>
+							<div class="info-block">Реквизиты: ООО "Барашек”</div>
+						</div>
+						<div class="map wow fadeInDown top__element">
+							<img src="img/map.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="container">
+				<div class="row">
+					<h2 class=" wow fadeInDown top__element">О нас</h2>
+					<div class="desription wow fadeInDown top__element">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="logo-block">
+					<a href="/">
+						<img src="img/logo-footer.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+
+	<script src="dist/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scrolling-nav.js"></script>
+	<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.plugin.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+	<script>
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset:	100,
+				callback: function(box) {
+					console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+				}
+			}
+		);
+		wow.init();
+	</script>
+	<script>
+		$(function() {
+			$('.mobile-btn').click(function() {
+				$('.mobile-menu ul').toggleClass('active');
+			});
+		});
+	</script>
+
+	<script>
+		$("a").click(function () {
+			var elementClick = $(this).attr("href");
+			var destination = $(elementClick).offset().top;
+			$('html, body').animate({ scrollTop: destination }, 5000);
+			return false;
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('input,textarea').focus(function(){
+				$(this).data('placeholder',$(this).attr('placeholder'))
+				$(this).attr('placeholder','');
+			});
+			$('input,textarea').blur(function(){
+				$(this).attr('placeholder',$(this).data('placeholder'));
+			});
+			});
+	</script>
+
+	<script>
+		document.getElementsByTagName('form').addEventListener('submit', function(evt){
+		  var http = new XMLHttpRequest(), f = this;
+		  evt.preventDefault();
+		  http.open("POST", "contacts-form.php", true);
+		  http.onreadystatechange = function() {
+		    if (http.readyState == 4 && http.status == 200) {
+		      alert(http.responseText);
+		      if (http.responseText.indexOf(f.nameFF.value) == 0) { // очистить поле сообщения, если в ответе первым словом будет имя отправителя
+		        f.messageFF.removeAttribute('value');
+		        f.messageFF.value='';
+		      }
+		    }
+		  }
+		  http.onerror = function() {
+		    alert('Извините, данные не были переданы');
+		  }
+		  http.send(new FormData(f));
+		}, false);
+	</script>
+</html>
